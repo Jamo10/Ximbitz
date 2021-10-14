@@ -7,7 +7,6 @@
 .header {
     background-color: #D9CF8B;
     height: 250px;
-    
 }
 
 .title-header {
@@ -21,3 +20,37 @@
 .subtitle-header {
     text-align: center;
 }
+
+.bar {
+    margin: auto;
+    position: relative;
+    height: 50px;
+}
+
+.inside-bar {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.button {
+    background-color: #D9CF8B;
+    border: none;
+    color: #6E6A4F;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+  }
+
+  .container {
+      padding-left: 10%;
+      padding-right: 10%;
+  }
