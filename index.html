@@ -1,47 +1,57 @@
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="description" content="venta de productos ecologicos e ideas para un consumo más responsable">
-    <meta name="keywords" content="ecología ecologia pañales cepillo pasta desodorante ecologícos jabones shampoo ecológicos ximbitz ximb'itz">
-    <meta name="robots" content="index, all, follow">
-    <title>Ximb'itz</title>  
-    <link rel="stylesheet" type="text/css" href="css/app.css"/>
-  </head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="venta de productos ecologicos e ideas para un consumo más responsable">
+  <meta name="keywords" content="ecología ecologia pañales cepillo pasta desodorante ecologícos jabones shampoo ecológicos ximbitz ximb'itz">
+  <meta name="robots" content="index, all, follow">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" href="/favicon.ico?v=2" type="image/x-icon" />
+  <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="css/app.css">
+
+  <title>Ximb'tiz</title>
+</head>
   <body>
-    <div class="header">
-      <div class="title-header">
-        Ximb'itz
-      </div>
-      <div class="subtitle-header">
-        Ideas para un consumo más responsable
-      </div>
-    </div>
-    <div class="bar">
-      <div class="inside-bar">
-        <button class="button" id="button-nosotros" onclick="Mostrar('nosotros')">
-          Nosotros
-          </button>
-          <button class="button" id="button-productos" onclick="Mostrar('productos')">
-            Productos
-          </button>
-          
-          <button class="button" id="button-contacto" onclick="Mostrar('contacto')">
-            Contacto
-          </button>
-      </div>
-    </div>
-    <div class="container">
-      <div id="nosotros">
-          Ximb'itz es una iniciativa para poner a la marcha ideas para un consumo más responsble, como ofrecer productos que impacten menos al medio ambiente.
+
+    <header class="l-header" id="header">
+      <nav class="nav bd-container">
+        <a href="" class="nav__logo">Ximbitz</a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item"><a href="#nosotros" class="nav__link">Nosotros</a></li>
+            <li class="nav__item"><a href="#productos" class="nav__link">Productos</a></li>
+            <li class="nav__item"><a href="#contacto" class="nav__link">Contacto</a></li>
+          </ul>
         </div>
-        <div id="productos">
-          Nuestros productos:
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class='bx bx-menu'></i>
         </div>
-        
-        <div id="contacto">
-          Puede localizarnos por medio de Telegram y Whatsapp
-        </div>
-    </div>
-    </body>
-    <script src="js/app.js"></script>
-  </html>
+      </nav>
+    </header>
+
+    <h1>Ximb'tiz</h1>
+    <h2>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto quibusdam ipsam ullam accusamus odio, perferendis earum itaque ab reiciendis assumenda aliquam, quis odit. Incidunt recusandae sequi rerum quam, deserunt illo!</h2>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam accusamus, hic, ullam repellendus alias voluptates maxime aut praesentium animi asperiores temporibus ex. Similique culpa incidunt ad aut officia, officiis error!
+    <ul>
+      <li>
+      hola
+      </li>
+      <li>
+        mundo
+      </li>
+      <li>
+        <a href="www.ximbitz.com">Sitio de Ximbitz</a>
+      </li>
+    </ul>
+
+    <img src="img/IMG_20211015_142124.jpg" alt="pañales ecológicos">
+    <img src="img/IMG_20211015_142939.jpg" alt="cepillos ecológicos">
+
+
+  </body>
+  <script src='js/app.js'></script>
+</html>
