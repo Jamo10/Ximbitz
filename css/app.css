@@ -262,7 +262,7 @@ img {
     color: #FFFFFF;
     top: 20%;
     left: 5%;
-    font-size: 6rem;
+    font-size: 7rem;
     position: absolute
 }
 
@@ -270,6 +270,12 @@ img {
     font-size: 1.05rem;
     margin-top: 4%;
     padding: 5px;
+}
+
+@media screen and (max-width: 768px){
+    .home__title {
+        font-size: 4rem;
+    }
 }
 
 /*WAVE*/
