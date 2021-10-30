@@ -254,7 +254,7 @@ img {
 
 .home__container {
     position:relative;
-    height: 69%;
+    height: 60%;
     background-color: #ECDD74;
 }
 
@@ -294,7 +294,7 @@ img {
     position: relative;
     display: block;
     width: calc(159% + 1.3px);
-    height: 267px;
+    height: 127px;
     transform: rotateY(180deg);
 }
 
