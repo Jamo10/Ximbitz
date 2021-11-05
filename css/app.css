@@ -301,3 +301,66 @@ img {
 .custom-shape-divider-bottom .shape-fill {
     fill: #FFFFFF;
 }
+
+/*PRODUCTOS*/
+.productos__content {
+    background-color: #FFF;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(174, 190, 205, 0.3);
+}
+
+.productos_img{
+    width: 100%;
+    transition: 0.4s;
+}
+
+.productos__title {
+    font-size: var(--h3-font-size);
+    color: var(--first-color);
+    margin: var(--mb-2) 0;
+}
+
+.productos__data {
+    padding: 1.5rem;
+}
+
+.procutos_subtitle {
+    font-size: var(--small-font-size);
+    color: var(--first-color-light);
+}
+
+.productos__content:hover {
+    box-shadow: 0 6px 8px rgba(174, 190, 205, 0.4);
+}
+
+.productos__content:hover, .productos__img{
+    transform: scale(1.02);
+}
+
+/*PRODUCTOS*/
+
+.contacto__container {
+    row-gap:2.5rem;
+}
+
+.contacto__content{
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.contacto__box{
+    background-color: #fff;
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(174, 190, 205, 0.3);
+}
+
+.contacto__icon, .contacto__title{
+    color: var(--first-color);
+}
+
+.contacto__icon {
+    font-size: 2rem;
+}
+
